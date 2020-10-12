@@ -1,0 +1,56 @@
+.container1{
+    background-color:burlywood;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pageheader {
+    text-align:center;
+}
+.navname {
+    text-align:center;
+}
+main.container {
+   background-color: whitesmoke;
+   margin-top:60px;
+}
+.pageheaders {
+    text-align:center;
+    font-size:30px;
+    font-weight:bolder;
+}
+h1 {
+    text-align: center;
+    line-height: 50px;
+    font-size:40px;
+}
+header {
+    height:30px;
+}
+.passwordbox {
+    border: 3px dotted;
+    margin-top:30px;
+    margin-bottom:30px;
+    height:60px;
+}
+.Defaultpwddisplay {
+    text-align:center
+}
+body {
+    background-color:rgba(196, 192, 192, 0.938);
+}
+.buttonrow {
+    display:flex;
+    justify-content:center;
+}
+.callprompt {
+    height:40px;
+    width:350px;
+    margin:15px;
+    background-color: red;
+    color:whitesmoke;
+    border-radius:12px;
+    
+}
