@@ -1,18 +1,10 @@
-.container1{
-    background-color:burlywood;
-
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .pageheader {
     text-align:center;
 }
 .navname {
     text-align:center;
 }
-main.container {
+div.container {
    background-color: whitesmoke;
    margin-top:60px;
 }

@@ -1,3 +1,7 @@
+/*Define potential characters to be used in password
+*/
+
+
 var lowerletters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 var upperetters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 var numchars = ['1','2','3','4','5','6','7','8','9','0']
@@ -8,8 +12,8 @@ function passwordfunction() {
   var password = []
   var parameterarray = []
   passwordlength = prompt("How many characters in password?/Length of password?")
-  if (passwordlength < 8 || passwordlength > 20) {
-    alert("All password lengths must be between 8-20 characters!")
+  if (passwordlength < 8 || passwordlength > 127) {
+    alert("All password lengths must be between 8-128 characters!")
   }
   else {
   islowercase = confirm("Lowercase letters permitted?")
