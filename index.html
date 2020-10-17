@@ -29,14 +29,22 @@
     <div class="row">
       <div class="col-md-12">
         <div class="passwordbox">
-          <p id ="userpassword" class ="Defaultpwddisplay"> Your Secure Password</p>
+          <span id ="userpassword" class ="Defaultpwddisplay"> Your Secure Password</span>
+          <div id="msg"></div>
         </div>
       </div>
     </div>    
     <div class="row">
       <div class="col-md-12">
         <div class="buttonrow">
-          <button class="callprompt" onclick="passwordfunction()">Generate Password</button>
+          <button id="generate">Generate Password</button>
+        </div>
+      </div>     
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="buttonrow">
+          <button id="copy" onclick ="copyFunction()">Copy New Password</button>
         </div>
       </div>     
     </div>
