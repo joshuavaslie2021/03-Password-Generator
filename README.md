@@ -2,14 +2,19 @@
 
 ## DESCRIPTION
 
+This week's project we were tasked with creating a password generator based on a set of characteristics defined by the end user's input to return a series of characters that can be utilized as a secure password. The end user is given a defined boundary for the password length, between 8 and 128 characters.
 ## INSTALLATION
     Site is deployed 
 
 ## SCREENSHOT
 
+![Image of site mainpage](https://joshuavaslie2021.github.io/03-Password-Generator/Assets/PASSWORD-GENERATOR.png)
 
 
 ## LINK TO DEPLOYED APPLICATION    
+
+![Link to deployed application](https://joshuavaslie2021.github.io/03-Password-Generator/index.html)
+
 ## USAGE
 
 # LICENSE
